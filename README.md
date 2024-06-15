@@ -52,7 +52,7 @@ SELECT * FROM road_accidents;
 import pandas as pd
 
 # Replace 'input.csv' with the path to your CSV file
-input_file = r'C:\Users\ian.muthengi\Downloads\Sales.xlsx'
+input_file = r'C:\Users\ian.muthengi\Downloads\road_accidents.xlsx'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_excel(input_file)
@@ -61,7 +61,7 @@ df = pd.read_excel(input_file)
 df_transposed = df.transpose()
 
 # Replace 'output_transposed.csv' with the desired output file name
-output_file = 'C:/Users/ian.muthengi/Downloads/transposed_sales.xlsx'
+output_file = 'C:/Users/ian.muthengi/Downloads/transposed_road_accidents.xlsx'
 
 # Write the transposed DataFrame to a new CSV file
 df_transposed.to_excel(output_file, index=True, header=False)

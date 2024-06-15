@@ -79,3 +79,6 @@ Based on the analysis, we recommend the following actions:
 2. Implement more comprehensive driver education programs focusing on defensive driving techniques, awareness of road safety, and adherence to traffic laws.
 3. Invest in improving road conditions, including better signage, road markings, and lighting, as well as the design and maintenance of safer roadways.
 4. Conduct detailed safety assessments of high-casualty locations to identify specific risk factors contributing to accidents.
+
+### Limitations
+The accident data often lacks detailed context, such as road conditions, driver behaviors, and environmental factors, which are crucial for a comprehensive analysis of the causes and consequences of accidents.
